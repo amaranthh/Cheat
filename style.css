@@ -42,3 +42,7 @@ table, th, td {
   body{
       font-family: Arial;
   }
+
+header{
+      text-align: center;
+  }
