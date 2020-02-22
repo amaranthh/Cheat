@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheat Sheet</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+<body>
+ <header> 
+  <h1 class="main-title">HTML and CSS Cheat Sheet</h1>
+    <p>It can be hard to remember everything that you have learned at first. That's why I have compiled my notes into cheat sheet. Hopefully, it can help you along the way!</p>
+</header>
+  
+<nav>
+  <p><h2>Have a specific topic in mind?</h2> </p>
+    <ul class="nav">
+      <li><a href=#htmlbas>HTML Basics</a></li><br>
+      <li><a href=#htmltables> HTML Tables</a></li><br>
+      <li><a href=#HTMLForms> HTML Forms</a></li><br>
+      <li><a href=#SemanticHTML> Semantic HTML</a></li><br>
+      <li><a href=#HTMLmedia> HTML media</a></li><br>
+    </ul>
+      
+</nav>
+
+<main>
+  <section id="htmlbas"><p>Let's start with some basic HTML</p></section>
+  <table>
+    <thead>
+    <th scope="col" colspan="4">Basic HTML</th>
+    </thead>
+    <tr class="top" >
+      <td>Name</td>
+      <td>Syntax</td>
+      <td>Purpose</td>
+      <td>Notes</td>
+    </tr>
+    <tr> 
+      <td class="name">Opening</td>
+      <td> &lt;!DOCTYPE HTML&gt;</td>
+      <td>Used in the begining of an HTML document to let the browser know what language is being used</td>
+      <td>Must use when making an HTML doc. It should be the VERY first thing on the page.</td>
+    </tr>
+    <tr> 
+      <td class="name" >Making a comment</td>
+      <td>&lt;!- - Comment - -&gt;</td>
+      <td>This will not be coded. Instead, it can be used to write a note to whoever is reading the code</td>
+      <td>..</td>
+    </tr>
+    <tr>
+      <td class="name">Title</td>
+      <td>
+        &lt;Head&gt;
+        &lt;Title&gt;Hello&lt;/Title&gt;
+        &lt;/Head&gt;
+      </td>
+      <td>Used to put a title in the tab on the browser.</td>
+      <td>Can only be used between &lt;Head&gt;&lt;/Head&gt;</td>
+    </tr>
+    <tr> 
+      <td class="name" >Link</td>
+      <td>&lt;a href=“url”&gt;Link text&lt;/a&gt;</td>
+      <td>Used to put a link on a page</td>
+      <td>  </td>
+    </tr>
+    <tr> 
+      <td class="name">Link to same page</td>
+      <td>&lt;a href=“#IDtag”&gt;Link text&lt;/a&gt;</td>
+      <td>Used to link to a specific area on a the same page</td>
+      <td>This is linked using an ID tag</td>
+    </tr>
+    <tr> 
+      <td class="name">Image, w/description</td>
+      <td>&lt;img src=“url” alt=“Image description” &gt;</td>
+      <td>Used to put an image on a site. The alt tag allows screen readers to identify the image</td>
+      <td>One MUST use an image description</td>
+    </tr>
+    <tr>
+      <td class="name">Image Link</td>
+      <td>&lt;a href=“url”&gt; &lt;mg src=“img url”&gt; &lt;/a&gt;</td>
+      <td>Used to make an image a link</td>
+      <td>Useful to break up monotony </td>
+    </tr>
+  </table> <br>
+
+
+<section id="htmltables">Now, Let's take a look at some HTML Tables. They are a simple way to organize data on a site</section><br>
+
+  <table>
+    <thead>
+    <th scope="col" colspan="4">HTML Tables</th>
+    </thead>
+    
+    <tr class="top" >
+      <td>Name</td>
+      <td>Syntax</td>
+      <td>Purpose</td>
+      <td>Notes</td>
+    </tr>
+
+    <tr>
+      <td class="name">Table Base</td>
+      <td>&lt;table&gt;<br>
+        &lt;tr&gt;&lt;tr&gt; <br>
+        &lt;/table&gt; </td> 
+      <td>This sets up the base of the table. Each &lt;tr&gt;, Table row, creates a row in the table. The &lt;table&gt; and &lt;tr&gt; are required. </td>
+      <td>Without Table Date and information this code will not display any information.</td>
+    </tr>
+    <tr>
+      <td class="name">Table Data</td>
+      <td>&lt;table&gt;<br>
+        &lt;td&gt;This in info in a sinlge column <br>&lt;/td&gt;<br>
+        &lt;/table&gt;</td>
+      <td>This is what holds the informtion in your table. This also determines the number of columns in the row.</td>
+      <td>The Table Data itself will not show any information till you put information in. Essentially, the plain HTml will show a 
+        blank space.
+      </td>
+    </tr>
+    <tr>
+      <td class="name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>  
+</main>
+</body>
+</html>

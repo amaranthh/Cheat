@@ -1,0 +1,44 @@
+table, th, td {
+    border: 3px solid rgb(37, 17, 17);
+    border-collapse: collapse;
+  }
+
+
+  thead{
+      color: rgb(167, 9, 69);
+      background-color: rgb(243, 176, 190);
+      font-size: 12pt;
+  }
+
+.top td{
+    color: rgb(255, 194, 237);
+    background-color: rgb(224, 35, 98);
+  }
+
+  .name{
+      color: rgb(216, 42, 94);
+      background-color: rgb(255, 179, 189);
+  }
+
+  td{
+    color: rgb(250, 58, 58);
+    background-color: rgb(255, 223, 235);
+  }
+
+  body{
+      color: rgb(37, 4, 6);
+      background-color: rgb(241, 227, 228);
+  }
+
+  .nav li a{
+      color: rgb(255, 44, 97);
+  }
+
+  .nav{
+      background-color: rgb(243, 191, 213);
+      margin-right: 90%;
+  }
+
+  body{
+      font-family: Arial;
+  }
