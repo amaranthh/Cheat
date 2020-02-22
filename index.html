@@ -15,13 +15,9 @@
     <ul class="nav">
       <li><a href=#htmlbas>HTML Basics</a></li><br>
       <li><a href=#htmltables> HTML Tables</a></li><br>
-      <li><a href=#HTMLForms> HTML Forms</a></li><br>
-      <li><a href=#SemanticHTML> Semantic HTML</a></li><br>
-      <li><a href=#HTMLmedia> HTML media</a></li><br>
     </ul>
       
 </nav>
-
 <main>
   <section id="htmlbas"><p>Let's start with some basic HTML</p></section>
   <table>
@@ -124,21 +120,63 @@
             &lt;/tr&gt;<br>
           &lt;/table&gt;<br>
       </td>
-      <td>Use &lt;th&gt; instead of &lt;td&gt; for headings on the table. Include scope="row/col" todesignate which it is heading.</td>
+      <td>Use &lt;th&table, th, td {
+        border: 3px solid rgb(37, 17, 17);
+        border-collapse: collapse;
+      }
+    
+    
+      thead{
+          color: rgb(167, 9, 69);
+          background-color: rgb(243, 176, 190);
+          font-size: 12pt;
+      }
+    
+    .top td{
+        color: rgb(255, 194, 237);
+        background-color: rgb(224, 35, 98);
+      }
+    
+      .name{
+          color: rgb(216, 42, 94);
+          background-color: rgb(255, 179, 189);
+      }
+    
+      td{
+        color: rgb(250, 58, 58);
+        background-color: rgb(255, 223, 235);
+      }
+    
+      body{
+          color: rgb(37, 4, 6);
+          background-color: rgb(241, 227, 228);
+      }
+    
+      .nav li a{
+          color: rgb(255, 44, 97);
+      }
+    
+      .nav{
+          background-color: rgb(243, 191, 213);
+          margin-right: 90%;
+      }
+    
+      body{
+          font-family: Arial;
+      }
+    
+    header{
+          text-align: center;
+      }gt; instead of &lt;td&gt; for headings on the table. Include scope="row/col" todesignate which it is heading.</td>
       <td>Always include the scope</td>
     </tr>
     <tr>
-      <td class="name"></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="name">Colspan/Rowspan</td>
+      <td>coslpan="2"</td>
+      <td>Makes a cell go across multiple row or comments depending on how it is tagged.</td>
+      <td>..</td>
     </tr>
-    <tr>
-      <td class="name"></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
+
   </table>  
 </main>
 </body>
